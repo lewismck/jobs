@@ -2,7 +2,11 @@
 function generateJobDesc(){
 //Array lists of lanaguages, jd snippets and modifier words (plus obligatory final sentence)
   var snippet = ["We are looking for Fresh Graduates who are", "Join our team of ambitious and upbeat", "The next members of our team will ideally be", "Our robust, agile, enterprise web solutions are built inhouse by",
-                  "To help develop and build dynamic web based software solutions we require some new", "This exciting, innovative company is looking for people willing to develop themselves into"];
+                  "To help develop and build dynamic web based software solutions we require some ", "This exciting, innovative company is looking for people willing to develop themselves into",
+                  "Our creative and UX teams are eager to work alongside", "A global provider of financial news, data and decision assistance tools are seeking",
+                  "We will offer fantastic career progression, along with set training for new hires to develop into", "The company prides itself on not being your stereotypical company, instead we're made of",
+                  "Good knowledge and understanding of common design patterns and OO principles, basically be",
+                  "Would you like the opportunity to work on complex, globally used enterprise grade Cloud Software platform? Then apply now we're looking for"];
   var languages = [" Ruby"," Javascript", " CSS", " Python", " mySQL", " Java", " C++", " Perl", " erlang", " Prolog", " C", " Haskell", " HTML5", " PHP", " VB", " GO"];
   var modifiers = [" ninjas", " wizards", " gurus", " space children", " unicorns", " masters", " dominatrixes", " fetishists", " over enthusiasts", " dragon tamers", " super Saiyan level 3's"];
   var obligatory = " Great organisation and problem solving skills are also key.";
